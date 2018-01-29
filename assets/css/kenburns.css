@@ -233,15 +233,3 @@ kenburns-4 {  73.4375% {
         transform: scale(1);
     }
 }
-.slideshow-image-0 {
-    background-image: attr(data-image-src url);
-}
-.slideshow-image-1 {
-    background-image: attr(data-image-src url);
-}
-.slideshow-image-2 {
-    background-image: attr(data-image-src url);
-}
-.slideshow-image-3 {
-    background-image: attr(data-image-src url);
-}
