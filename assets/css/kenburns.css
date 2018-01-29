@@ -233,15 +233,15 @@ kenburns-4 {  73.4375% {
         transform: scale(1);
     }
 }
+.slideshow-image-0 {
+    background-image: attr(data-image-src url);
+}
 .slideshow-image-1 {
-    background-image: url('../../images/bg_01.jpg');
+    background-image: attr(data-image-src url);
 }
 .slideshow-image-2 {
-    background-image: url('../../images/bg_02.jpg');
+    background-image: attr(data-image-src url);
 }
 .slideshow-image-3 {
-    background-image: url('../../images/bg_03.jpg');
-}
-.slideshow-image-4 {
-    background-image: url('../../images/bg_04.jpg');
+    background-image: attr(data-image-src url);
 }

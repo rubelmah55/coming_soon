@@ -14,7 +14,7 @@
         foreach ($images as $key => $value): 
 
             ?>
-        <div class="slideshow-image slideshow-image-<?php echo $key+1; ?>" style="<?php echo $value['url']; ?>"></div>
+        <div class="slideshow-image slideshow-image-<?php echo $key; ?>" data-image-src="<?php echo $value['url']; ?>"></div>
         <?php endforeach; ?>
     </div>
     <!-- Background Slideshow END -->
