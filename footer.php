@@ -10,7 +10,7 @@
             });
 
             //Mouse Effect
-            initHeader($('#bg-pattern'), $('#pattern-canvas'));
+            // initHeader($('#bg-pattern'), $('#pattern-canvas'));
         });
     </script>
     <!-- Page Specific Custom Script END -->
