@@ -33,7 +33,7 @@
     animation-name: kenburns-2;
     z-index: 2;
 }
-.slideshow-image:nth-child(3) {
+/*.slideshow-image:nth-child(3) {
     -webkit-animation-name: kenburns-3;
     animation-name: kenburns-3;
     z-index: 1;
@@ -42,7 +42,7 @@
     -webkit-animation-name: kenburns-4;
     animation-name: kenburns-4;
     z-index: 0;
-}
+}*/
 @-webkit-keyframes
 kenburns-1 {  0% {
         opacity: 1;
