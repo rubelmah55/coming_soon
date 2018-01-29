@@ -7,11 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>MODERN Coming Soon HTML Template</title>
+    <title><?php the_title(); ?></title>
     <!--Favicon -->
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
-    
-   
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 
     <?php wp_head(); ?>

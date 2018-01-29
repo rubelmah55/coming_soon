@@ -27,3 +27,20 @@ body .gform_wrapper ul li.gfield{
 .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]){
 	padding: 5px 12px !important;
 }
+
+
+/* azizultex */
+.main-container {
+	padding-top: 0;
+}
+.slideshow {
+	position: fixed;
+}
+header.header-logo img {
+    max-width: 400px;
+}
+
+.gform_fields input,
+.gform_fields textarea {
+    padding: 5px 14px !important;
+}

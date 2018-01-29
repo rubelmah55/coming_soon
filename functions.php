@@ -11,7 +11,6 @@ function udacity_scripts() {
 	wp_enqueue_style('kenburns', get_template_directory_uri() . '/assets/css/kenburns.css', array(), false, 'all');
 	wp_enqueue_style('style', get_template_directory_uri() . '/assets/css/style.css', array(), false, 'all');
 	wp_enqueue_style('blue', get_template_directory_uri() . '/assets/css/blue.css', array(), false, 'all');
-	wp_enqueue_style('colorpanel', get_template_directory_uri() . '/plugins/settings/jquery.colorpanel.css', array(), false, 'all');
 	wp_enqueue_style( 'udacity-style', get_stylesheet_uri() );
 	/**
 	 * Enqueue scripts.
