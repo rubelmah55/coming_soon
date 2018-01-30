@@ -6,18 +6,17 @@
 
 <?php get_header(); ?>
     <!-- Preloader -->
+
     <div id="preloader"></div>
 
-    <!-- Background Slideshow START -->
-    <div class="slideshow" id="slideshow">
-        <?php $images = get_field('banner');
-        foreach ($images as $key => $value): 
-
-            ?>
-        <div class="slideshow-image" style="background-image: url(<?php echo $value['url']; ?>)"></div>
-        <?php endforeach; ?>
-    </div>
+    
     <!-- Background Slideshow END -->
+    <?php
+        $banner = get_field('banner');
+        $banner_imgs = wp_list_pluck($banner, 'url');
+     ?>
+<div id="demo-1" class="my-overlay" data-zs-src='["<?php echo implode("\",\"", $banner_imgs); ?>"]' data-zs-overlay="plain">
+    
 
     <div id="wrapper">
         <div class="container" id="top-container">
@@ -89,7 +88,7 @@
                         <h4 class="text-left">Send Us A Message</h4>
 
                         <!-- Contact Form START -->
-                        <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true"]'); ?>
+                        <?php echo do_shortcode('[gravityform id="'. get_field('form_id') .'" title="false" description="false" ajax="true"]'); ?>
                         <div id="contact-msg"></div>
                         <!-- Contact Form END -->
                     </div>
@@ -124,7 +123,7 @@
         </div>
         <!-- Modal Popup END -->
     </div>
-
+</div>
     <div id="bg-pattern"></div>
 
     <!-- Settings (Remove it on Production) -->
